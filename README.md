@@ -32,7 +32,7 @@ RideWise is a console-based ride-sharing system built to demonstrate **LLD**, **
 ## Package Structure
 
 ```text
-src/com/airtribe/ridewise/
+src/com/travel/ridewise/
 ├── Main.java
 ├── model/
 ├── strategy/
@@ -47,7 +47,7 @@ From project root:
 
 ```bash
 javac -d out $(find src -name "*.java")
-java -cp out com.airtribe.ridewise.Main
+java -cp out com.travel.ridewise.Main
 ```
 
 ## Sample Flow
